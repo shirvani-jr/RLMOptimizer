@@ -64,14 +64,6 @@ Each evaluated example costs 1 unit. Each sub-LLM call costs 1 unit. **Root LM r
 
 Only `signature.instructions` (the prompt text) for each step. Field definitions, program control flow, few-shot demos, and model weights are not modified. This is structurally enforced: a fingerprint check after every update rejects any change that alters program structure.
 
-## Install
-
-```bash
-pip install rlmoptimizer
-```
-
-Requires Python 3.10+ and `dspy>=2.6`.
-
 ## Quick Start
 
 ```python
