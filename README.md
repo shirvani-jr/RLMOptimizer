@@ -1,6 +1,6 @@
 # RLMOptimizer
 
-A prompt optimizer built on the [Recursive Language Model](https://arxiv.org/abs/2512.24601) paradigm. The optimizer is an LLM agent with a persistent code environment, optimization tools, and sub-LLM access. It doesn't follow a fixed optimization algorithm — it *is* the algorithm.
+A prompt optimizer built on the [Recursive Language Model](https://arxiv.org/abs/2512.24601) paradigm. The optimizer is an LLM agent with a persistent code environment, optimization tools, an sub-LLM access. It doesn't follow a fixed optimization algorithm — it *is* the algorithm.
 
 ## Why RLM for Optimization
 
